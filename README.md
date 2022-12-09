@@ -24,7 +24,13 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Draft implementation of the zeromq publish/subscribe pattern using nestjs, which allows you to create any architecture based on these sockets.
+The default example is one publisher and two subscribers via localhost.
+
+## TODO
+    Samples
+    Evnets
+    Tests
 
 ## Installation
 

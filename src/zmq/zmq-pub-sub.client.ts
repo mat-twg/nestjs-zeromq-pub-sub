@@ -136,7 +136,6 @@ export class ZmqPubSubClient extends ClientProxy {
     }
     return new Observable((observer: Observer<TResult>) => {
       const callback = this.createObserver(observer);
-
       return this.publish({ pattern, data }, callback);
     });
   }
