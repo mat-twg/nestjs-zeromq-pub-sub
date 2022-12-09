@@ -15,7 +15,6 @@ export interface ZmqSubServerOptions {
     };
 
     channel?: {
-      pattern?: string;
       postfix?: string;
     };
   };
