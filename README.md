@@ -24,8 +24,8 @@
 
 ## Description
 
-Draft implementation of the zeromq publish/subscribe pattern using nestjs, which allows you to create any architecture based on these sockets.
-The default example is one publisher and two subscribers via localhost.
+Draft implementation of the Zeromq publish/subscribe pattern using NestJS, which allows you to create any architecture based on these sockets.
+The default example is one publisher that sends messages on two channels (topics) with different time intervals and subscribers, one for each channel.
 
 ## TODO
     Samples
