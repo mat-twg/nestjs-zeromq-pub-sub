@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+dist/
+
+# JetBrains
+.idea/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Dotenv
+.env.local
+
+# Curve keys
+/curve
