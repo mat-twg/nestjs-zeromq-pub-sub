@@ -24,10 +24,11 @@
 
 ## Description
 
-Draft implementation of the Zeromq publish/subscribe pattern using NestJS, which allows you to create any architecture based on these sockets.
+Draft (MVP) implementation of the Zeromq publish/subscribe pattern using NestJS, which allows you to create any architecture based on these sockets.
 The default example is one publisher that sends messages on two channels (topics) with different time intervals and subscribers, one for each channel.
 
 ## TODO
+    Client (socket wrapper)
     Samples
     Evnets
     Tests

@@ -28,11 +28,3 @@ async function bootstrap() {
 }
 
 (async () => await bootstrap())();
-
-// async function bootstrap() {
-//   const app = await NestFactory.createApplicationContext(AppModule);
-// }
-//
-// (async () => await bootstrap())();
-
-// (async () => NestFactory.createApplicationContext(AppModule))();
